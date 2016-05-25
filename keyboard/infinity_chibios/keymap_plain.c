@@ -9,7 +9,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         GRV ,   1,   2,   3,   4,   5,   6,   7,   8,   9,   0,MINS, EQL,BSLS, DEL,\
         TAB ,   Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,LBRC,RBRC,BSPC, \
          FN5,   A,   S,   D,   F,   G,   H,   J,   K,   L,SCLN,QUOT,      ENT,  \
-        LSFT,   Z,   X,   C,   V,   B,   N,   M,COMM, DOT,SLSH,RSFT,FN0, \
+        LSFT,   Z,   X,   C,   V,   B,   N,   M,COMM, DOT,SLSH,RSFT,FN2, \
         LCTL,LGUI,LALT,           FN1,               LALT,RGUI, FN2,RCTL
     ),
 
@@ -17,9 +17,9 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * Layer 1: SpaceFN overlay
      */ 
     [1] = KEYMAP(
-        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,KP_7,KP_8,KP_9,TRNS,TRNS,TRNS,TRNS,TRNS, \
-        TRNS,TRNS,  UP,TRNS,TRNS,TRNS,TRNS,KP_4,KP_5,KP_6,PSCR,TRNS, TRNS,TRNS, \
-        TRNS,LEFT,DOWN,RGHT,TRNS,TRNS,KP_0,KP_1,KP_2,KP_3,TRNS,TRNS,     TRNS, \
+        TRNS,  F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9, F10, F11, F12,TRNS,TRNS, \
+        TRNS,TRNS,  UP,TRNS,TRNS,TRNS,TRNS,WH_U,MS_U,WH_D,PSCR,TRNS,TRNS,TRNS, \
+        TRNS,LEFT,DOWN,RGHT,TRNS,TRNS,BTN1,MS_L,MS_D,MS_R,BTN2,TRNS,     TRNS, \
         TRNS,MPRV,MPLY,MNXT,TRNS,TRNS,TRNS,MUTE, FN3, FN4,TRNS,TRNS,TRNS, \
         TRNS,TRNS,TRNS,          TRNS,               TRNS,TRNS,TRNS,TRNS
     ),
