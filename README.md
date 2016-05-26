@@ -1,3 +1,7 @@
+# DEPRECATED
+
+### I now use https://github.com/kevinmost/tmk, which has all of my firmwares set up in a much more modular way. This is the only manageable way to deal with the fact that all of these boards need different versions of TMK, ChibiOS, etc, in my opinion.
+
 TMK Keyboard Firmware Collection
 ================================
 This is a keyboard firmware with some useful features for Atmel AVR controller.
